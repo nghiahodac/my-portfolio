@@ -11,6 +11,9 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 900 !important;
 }
 
+ul {
+	margin-left: 0;
+}
 .wrapper {
 		background: #E3E3E3;
 }
@@ -324,5 +327,15 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
     margin-top: -100px;
     margin-bottom: 40px;
+
+}
+.col-button {
+	display: flex;
+}
+@media only screen and (max-width : 768px) {
+	.col-button {
+		display: flex;
+		flex-direction: column;
+	}
 
 }
