@@ -206,7 +206,7 @@ h1, h2, h3, h4, h5, h6 {
 .details .platform{
 	font-size: 0.8em;
 	text-transform: uppercase;
-	margin: 2em 0 -0.1em;
+	/* margin: 2em 0 -0.1em; */
 	font-family: "Maven pro", sans-serif;
 	font-weight: 500;
 	color: #ff7654;
@@ -222,7 +222,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "Maven pro", sans-serif;
 	font-weight: 500;
 	font-size: 1.2em;
-	margin-bottom: 1.8em;
+	padding-bottom: 1rem;
 }
 
 .details a, .details a:link, .details a:active{
@@ -237,25 +237,6 @@ h1, h2, h3, h4, h5, h6 {
 		color: #fff;
 }
 
-/*** teaching ***/
-#teaching {
-	padding: 6em 4em 3em;
-}
-
-#teaching h2 {
-	color: #595959;
-}
-
-#teaching .tag-line {
-	color: #848282;
-	font-size: 1.4em;
-}
-
-#teaching .teaching-domains {
-	height: 500px;
-	width: auto;
-	margin-top: -4em;
-}
 
 
 
