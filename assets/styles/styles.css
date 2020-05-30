@@ -12,8 +12,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ul {
-	margin-left: 0;
+	margin-left: 0px !important;
 }
+
 .wrapper {
 		background: #E3E3E3;
 }
